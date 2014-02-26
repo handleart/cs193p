@@ -23,7 +23,6 @@
 - (PlayingCardDeck *)deck {
     if (!_deck) _deck = [[PlayingCardDeck alloc] init];
     return _deck;
-    //test
 }
 
 -(void)setFlipCount:(int)flipCount {
