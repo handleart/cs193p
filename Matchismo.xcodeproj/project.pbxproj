@@ -25,6 +25,7 @@
 		9C80BF7818B83AB6009074BD /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C80BF7718B83AB6009074BD /* PlayingCard.m */; };
 		9C80BF7B18B83AD9009074BD /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C80BF7A18B83AD9009074BD /* PlayingCardDeck.m */; };
 		9C80BF7E18B83B18009074BD /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C80BF7D18B83B18009074BD /* Deck.m */; };
+		9CEDFCDE18BFB532005D6473 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEDFCDD18BFB532005D6473 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,8 @@
 		9C80BF7A18B83AD9009074BD /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
 		9C80BF7C18B83B18009074BD /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
 		9C80BF7D18B83B18009074BD /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		9CEDFCDC18BFB532005D6473 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		9CEDFCDD18BFB532005D6473 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +171,8 @@
 		9C80BF6F18B83910009074BD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9CEDFCDC18BFB532005D6473 /* CardMatchingGame.h */,
+				9CEDFCDD18BFB532005D6473 /* CardMatchingGame.m */,
 				9C80BF7C18B83B18009074BD /* Deck.h */,
 				9C80BF7D18B83B18009074BD /* Deck.m */,
 				9C80BF7018B83A8C009074BD /* Card.h */,
@@ -281,6 +286,7 @@
 				9C80BF7E18B83B18009074BD /* Deck.m in Sources */,
 				9C80BF5118B83906009074BD /* CardGameViewController.m in Sources */,
 				9C80BF4B18B83906009074BD /* AppDelegate.m in Sources */,
+				9CEDFCDE18BFB532005D6473 /* CardMatchingGame.m in Sources */,
 				9C80BF7B18B83AD9009074BD /* PlayingCardDeck.m in Sources */,
 				9C80BF4718B83906009074BD /* main.m in Sources */,
 				9C80BF7218B83A8C009074BD /* Card.m in Sources */,

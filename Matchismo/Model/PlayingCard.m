@@ -10,6 +10,26 @@
 
 @implementation PlayingCard
 
+-(int)match:(NSArray *)otherCards
+{
+    int score = 0;
+    int numberOfCardsMatching = 0;
+    
+    //if ([otherCards count] == 1) {
+    for (PlayingCard *otherCard in otherCards) {
+    //PlayingCard *otherCard = [otherCards firstObject];
+        if (otherCard.rank == self.rank) {
+            score = 4;
+            numberOfCardsMatching += 1;
+        } else if ([otherCard.suit isEqualToString:self.suit]) {
+            score = 1;
+            numberOfCardsMatching +=1;
+        }
+    }
+
+    return score * numberOfCardsMatching;
+}
+
 - (NSString *) contents {
     NSArray *rankStrings = [PlayingCard rankStrings];
     return [rankStrings[self.rank] stringByAppendingString:self.suit];
